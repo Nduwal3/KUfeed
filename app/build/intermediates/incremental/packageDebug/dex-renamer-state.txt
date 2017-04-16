@@ -1,0 +1,7 @@
+#Sun Apr 16 22:41:31 NPT 2017
+base.0=C\:\\Users\\DDELL\\AndroidStudioProjects\\KUFeed1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5c0ab68a5a0ee1debc030713e48b3a96d69a0d32
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\DDELL\\AndroidStudioProjects\\KUFeed1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b438621a566271d94da17658761c2293a5be649a\\classes.dex
+base.1=C\:\\Users\\DDELL\\AndroidStudioProjects\\KUFeed1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b438621a566271d94da17658761c2293a5be649a
+file.0=C\:\\Users\\DDELL\\AndroidStudioProjects\\KUFeed1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5c0ab68a5a0ee1debc030713e48b3a96d69a0d32\\classes.dex

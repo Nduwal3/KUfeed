@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_a8fda29e2afd0758369bbf230f785349b8ecc2a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_f4edc4fc693f87c6802af285a519a9f610e443b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_f903fac4908fce1244f9a9677e8b175c9a5b1821\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fff4fdf3657e35676625afebb2ad616a88c6d0b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_e15f0c97e7ff1c80fbaddd8b8ebceebdf886ec6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="35973140cff2b2d11d79bb12dd22bdb3682bcae2">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b438621a566271d94da17658761c2293a5be649a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="656e48931519f565477a2333700fbf44406d876e">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5c0ab68a5a0ee1debc030713e48b3a96d69a0d32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_7d11211f5dadcd7d8ea726f647bb4603c7c054bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c56bc7a3beac3ecc343f931f079366289d2bc097">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_500ca808de6e5184136550e0b533691122bc804e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_7d38ebdba97ba9778dd9204e29da9ccc7513ed8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_5b7c5ac32fee311b7bf4152037e85a98efe3aa04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_d817b0738b5c8afa4b6cf71a3b377b2328793745\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_cc56e0bc135e8b1472a4e2d75578b13fb9b1facc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_4aceab37aeae750de6815ea84e7c35281a4503ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_9ba34c8e3d1eeb09fc9255696a3fe5165014fe37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_bc91d82cdcac18361f7c902dc6ae1f62ba7df251\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="50d00c9def02c970f17fc69169b638f0e92ad22f">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c9c6357cc4a4eb2ded5874f4390a9f25817dd517\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_9fc4e56957dc3f41b53e2623f76df60e021c55df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_0b83d167628b779f7e148a0380615c01a2ca01b1\classes.dex" />
+    </item>
+
+</items>

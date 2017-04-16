@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.kufeed"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ku"
+        android:label="KUfeed"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.android.kufeed.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.kufeed.law"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.docse"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.schools"
+            android:parentActivityName="com.example.android.kufeed.MainActivity" />
+        <activity
+            android:name="com.example.android.kufeed.cocse"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.me"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.ee"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.cg"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.about"
+            android:parentActivityName="com.example.android.kufeed.MainActivity" />
+        <activity
+            android:name="com.example.android.kufeed.bt"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.ns"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.ph"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.es"
+            android:parentActivityName="com.example.android.kufeed.schools" />
+        <activity
+            android:name="com.example.android.kufeed.seminar"
+            android:parentActivityName="com.example.android.kufeed.MainActivity" />
+        <activity
+            android:name="com.example.android.kufeed.notice"
+            android:parentActivityName="com.example.android.kufeed.MainActivity" />
+        <activity
+            android:name="com.example.android.kufeed.event"
+            android:parentActivityName="com.example.android.kufeed.MainActivity" />
+        <activity
+            android:name="com.example.android.kufeed.internalku"
+            android:parentActivityName="com.example.android.kufeed.MainActivity" />
+        <activity
+            android:name="com.example.android.kufeed.button1"
+            android:parentActivityName="com.example.android.kufeed.internalku" />
+        <activity
+            android:name="com.example.android.kufeed.button2"
+            android:parentActivityName="com.example.android.kufeed.internalku" />
+        <activity
+            android:name="com.example.android.kufeed.button3"
+            android:parentActivityName="com.example.android.kufeed.internalku" />
+        <activity
+            android:name="com.example.android.kufeed.routine"
+            android:parentActivityName="com.example.android.kufeed.internalku" />
+    </application>
+
+</manifest>

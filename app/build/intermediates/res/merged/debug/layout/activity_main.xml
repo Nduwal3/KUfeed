@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    android:orientation="vertical"
+    tools:context="com.example.android.kufeed.MainActivity"
+    android:background="#C5CAE9"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:orientation="vertical"
+        >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="175dp"
+        android:src="@drawable/ku"
+        android:id="@+id/ku_imageView"
+        android:foregroundGravity="center"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Kathmandu University"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:id="@+id/textView2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Provide Quality Education For Leadership "
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/textView1"
+        android:layout_weight="0.2"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <Button
+        android:id="@+id/noticeButton"
+        android:text="Notices"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:textColor="@drawable/colorselector"
+        android:textSize="20sp"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="noticeButtonClicked"/>
+
+
+        <Button
+            android:id="@+id/internalKuButton"
+            android:text="Internal KU "
+            android:layout_weight="1"
+            android:textColor="@drawable/colorselector"
+            android:textSize="20sp"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:background="@drawable/buttonshape"
+            android:layout_margin="10dp"
+            android:onClick="internalButtonClicked"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:id="@+id/seminarButton"
+            android:text="Seminar"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/colorselector"
+            android:textSize="20sp"
+            android:layout_width="170dp"
+            android:layout_height="65dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="seminarButtonClicked"/>
+
+        <Button
+            android:id="@+id/schoolsButton"
+            android:text="School"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/colorselector"
+            android:textSize="20sp"
+            android:layout_width="170dp"
+            android:layout_height="65dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="schoolsButtonClicked"/>
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        >
+        <Button
+            android:id="@+id/eventsButton"
+            android:text="Events"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/colorselector"
+            android:textSize="20sp"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="eventsButtonClicked"/>
+
+        <Button
+            android:id="@+id/aboutButton"
+            android:text="About Us"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/colorselector"
+            android:textSize="20sp"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#4475A6"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="aboutButtonClicked"/>
+
+        </LinearLayout>
+</LinearLayout>

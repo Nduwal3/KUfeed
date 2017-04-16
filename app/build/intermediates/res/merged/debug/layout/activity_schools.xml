@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_schools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    tools:context="com.example.android.kufeed.schools"
+    android:weightSum="8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/kuhome"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:text="Kathmandu University"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/kuTxtView"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Since 1991"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:fontFamily="monospace"
+            android:id="@+id/textView"
+            android:layout_alignBottom="@+id/kuTxtView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="32dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="School Of Engineering"
+                android:textColor="#2980B9"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:background="#A6ACAF"
+                android:layout_marginLeft="8dp"/>
+
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:scrollbars="horizontal"
+                android:scrollbarStyle="insideOverlay">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#2980B9">
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/docse"
+                            android:id="@+id/docseimg"
+                            />
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="70dp"
+                            android:text="Department of Computer Science and Engineering"
+                            android:id="@+id/docsebutton"
+                            android:textSize="11sp"
+                            android:layout_below="@id/docseimg"
+                            android:textColor="@drawable/colorselector1"
+                            android:onClick="docseClicked"/>
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#2980B9">
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/ee"
+                            android:id="@+id/eeimg"
+                            />
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="70dp"
+                            android:text="Department of Electrical Electronics Engineering"
+                            android:id="@+id/eebutton"
+                            android:textSize="11sp"
+                            android:layout_below="@id/eeimg"
+                            android:textColor="@drawable/colorselector1"
+                            android:onClick="eeClicked"/>
+                         </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="#2980B9">
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/me"
+                                android:id="@+id/meimg"
+                                />
+                            <Button
+                                android:layout_width="130dp"
+                                android:layout_height="70dp"
+                                android:text="Department of Mechanical Engineering"
+                                android:id="@+id/mebutton"
+                                android:textSize="11sp"
+                                android:layout_below="@id/meimg"
+                                android:textColor="@drawable/colorselector1"
+                                android:onClick="meClicked"/>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="#2980B9">
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/cg"
+                                android:id="@+id/cgimg"
+                                />
+                            <Button
+                                android:layout_width="130dp"
+                                android:layout_height="70dp"
+                                android:text="Department of Civil and Geomatics Engineering"
+                                android:id="@+id/cgbutton"
+                                android:textSize="11sp"
+                                android:layout_below="@id/cgimg"
+                                android:textColor="@drawable/colorselector1"
+                                android:onClick="cgClicked"/>
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="#2980B9">
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/cocse"
+                                android:id="@+id/cocseimg"
+                                />
+                            <Button
+                                android:layout_width="130dp"
+                                android:layout_height="70dp"
+                                android:text="Department of Chemical Science and Engineering"
+                                android:id="@+id/cocsebutton"
+                                android:textSize="11sp"
+                                android:layout_below="@id/cocseimg"
+                                android:textColor="@drawable/colorselector1"
+                                android:onClick="cocseClicked"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="School Of Science"
+                    android:textColor="#2980B9"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_weight="0.25"
+                    android:background="#A6ACAF"
+                    android:layout_marginLeft="8dp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="horizontal"
+                    android:scrollbarStyle="insideOverlay">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="#2980B9">
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/bt"
+                                android:id="@+id/btimg"
+                                />
+                            <Button
+                                android:layout_width="130dp"
+                                android:layout_height="70dp"
+                                android:text="Department of Biotechnology"
+                                android:id="@+id/bt_button_view"
+                                android:textSize="11sp"
+                                android:layout_below="@id/btimg"
+                                android:textColor="@drawable/colorselector1"
+                                android:onClick="btClicked"/>
+                        </RelativeLayout>
+
+                         <RelativeLayout
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:background="#2980B9">
+                                <ImageView
+                                    android:layout_width="130dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/es"
+                                    android:id="@+id/esimg"
+                                    />
+                                <Button
+                                    android:layout_width="130dp"
+                                    android:layout_height="70dp"
+                                    android:text="Department of Environmental Science and Engineering"
+                                    android:id="@+id/es_button_view"
+                                    android:textSize="11sp"
+                                    android:layout_below="@id/esimg"
+                                    android:textColor="@drawable/colorselector1"
+                                    android:onClick="btClicked"/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:background="#2980B9">
+                                <ImageView
+                                    android:layout_width="130dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/ns"
+                                    android:id="@+id/nsimg"
+                                    />
+                                <Button
+                                    android:layout_width="130dp"
+                                    android:layout_height="70dp"
+                                    android:text="Department of Biotechnology"
+                                    android:id="@+id/ns_button_view"
+                                    android:textSize="11sp"
+                                    android:layout_below="@id/nsimg"
+                                    android:textColor="@drawable/colorselector1"
+                                    android:onClick="nsClicked"/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:background="#2980B9">
+                                <ImageView
+                                    android:layout_width="130dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/ph"
+                                    android:id="@+id/phimg"
+                                    />
+                                <Button
+                                    android:layout_width="130dp"
+                                    android:layout_height="70dp"
+                                    android:text="Department of Pharmacy"
+                                    android:id="@+id/ph_button_view"
+                                    android:textSize="11sp"
+                                    android:layout_below="@id/phimg"
+                                    android:textColor="@drawable/colorselector1"
+                                    android:onClick="btClicked"/>
+                            </RelativeLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="School Of Law"
+                android:background="#A6ACAF"
+                android:textColor="#2980B9"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="0.25"
+                android:layout_marginLeft="8dp"/>
+
+            <RelativeLayout
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#2980B9">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ph"
+                    android:id="@+id/lawimg"
+                    />
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="70dp"
+                    android:text="School of law"
+                    android:id="@+id/law_button_view"
+                    android:textSize="11sp"
+                    android:layout_below="@id/lawimg"
+                    android:textColor="@drawable/colorselector1"
+                    android:onClick="lawClicked"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

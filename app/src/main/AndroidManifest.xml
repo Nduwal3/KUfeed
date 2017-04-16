@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.kufeed">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ku"
+        android:label="KUfeed"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".law"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".docse"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".schools"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cocse"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".me"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".ee"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".cg"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".about"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".bt"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".ns"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".ph"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".es"
+            android:parentActivityName=".schools" />
+        <activity
+            android:name=".seminar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".notice"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".event"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".internalku"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".button1"
+            android:parentActivityName=".internalku" />
+        <activity
+            android:name=".button2"
+            android:parentActivityName=".internalku" />
+        <activity
+            android:name=".button3"
+            android:parentActivityName=".internalku" />
+        <activity
+            android:name=".routine"
+            android:parentActivityName=".internalku" />
+    </application>
+
+</manifest>

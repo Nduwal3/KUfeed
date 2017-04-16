@@ -1,0 +1,186 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:2:1-82:12
+	package
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:7:5-80:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:10:9-31
+	android:supportsRtl
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:11:9-35
+	android:allowBackup
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:9:9-36
+	android:theme
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.android.kufeed.MainActivity
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:13:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.android.kufeed.law
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:20:9-22:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:22:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:21:13-32
+activity#com.example.android.kufeed.docse
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:23:9-25:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:25:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:24:13-34
+activity#com.example.android.kufeed.schools
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:26:9-28:58
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:28:13-55
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:27:13-36
+activity#com.example.android.kufeed.cocse
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:29:9-31:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:30:13-34
+activity#com.example.android.kufeed.me
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:32:9-34:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:34:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:33:13-31
+activity#com.example.android.kufeed.ee
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:35:9-37:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:37:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:36:13-31
+activity#com.example.android.kufeed.cg
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:38:9-40:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:40:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:39:13-31
+activity#com.example.android.kufeed.about
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:41:9-43:58
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:43:13-55
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:42:13-34
+activity#com.example.android.kufeed.bt
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:44:9-46:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:46:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:45:13-31
+activity#com.example.android.kufeed.ns
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:47:9-49:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:49:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:48:13-31
+activity#com.example.android.kufeed.ph
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:50:9-52:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:52:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:51:13-31
+activity#com.example.android.kufeed.es
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:53:9-55:53
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:55:13-50
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:54:13-31
+activity#com.example.android.kufeed.seminar
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:56:9-58:58
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:58:13-55
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:57:13-36
+activity#com.example.android.kufeed.notice
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:59:9-61:58
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:61:13-55
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:60:13-35
+activity#com.example.android.kufeed.event
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:62:9-64:58
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:64:13-55
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:63:13-34
+activity#com.example.android.kufeed.internalku
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:65:9-67:58
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:67:13-55
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:66:13-39
+activity#com.example.android.kufeed.button1
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:68:9-70:56
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:70:13-53
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:69:13-36
+activity#com.example.android.kufeed.button2
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:71:9-73:56
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:73:13-53
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:72:13-36
+activity#com.example.android.kufeed.button3
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:74:9-76:56
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:76:13-53
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:75:13-36
+activity#com.example.android.kufeed.routine
+ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:77:9-79:56
+	android:parentActivityName
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:79:13-53
+	android:name
+		ADDED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml:78:13-36
+uses-sdk
+INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DDELL\AndroidStudioProjects\KUFeed1\app\src\main\AndroidManifest.xml
